@@ -1,6 +1,6 @@
 - name: Copy file with owner and permissions
   ansible.builtin.copy:
-    src: /home/centos/dy/mongo.repo
+    src: mongo.repo
     dest: /etc/yum.repos.d/mongo.repo
 
 - name: Install mongodb
